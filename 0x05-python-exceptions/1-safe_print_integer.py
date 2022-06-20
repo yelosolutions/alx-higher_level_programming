@@ -4,7 +4,8 @@ def safe_print_integer(value):
     """
     Prints an integer with "{:d}".format()
     Args:
-    value: value to be printed
+        value: value to be printed
+
     Return: True if successful.Otherwise False
     """
     try:
