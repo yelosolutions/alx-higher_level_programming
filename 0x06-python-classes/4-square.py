@@ -8,7 +8,6 @@ class Square:
     def __init__(self, size=0):
         """
         Creates an instance of Square
-
         Args:
             size: size of the square
         """
@@ -31,8 +30,8 @@ class Square:
 
         self.__size = value
 
-        def area(self):
-            """
-            Finds area of the square
-            """
-            return self.__size * self.
+    def area(self):
+        """
+        Finds area of the square
+        """
+        return self.__size * self.__size
