@@ -1,5 +1,6 @@
 # **SQL - Introduction**
 ---
+MySQL is an open-source database management system, commonly installed as part of the popular LAMP (Linux, Apache, MySQL, PHP/Python/Perl) stack. It implements the relational model and uses Structured Query Language (better known as SQL) to manage its data.
 ## General Learning Objectives
 ---
 * What’s a database
