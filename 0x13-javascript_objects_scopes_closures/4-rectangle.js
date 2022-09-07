@@ -12,16 +12,17 @@ class Rectangle {
       let k = '';
       for (let j = 0; j < this.width; j++) {
         k += 'X';
-      } 
+      }
       console.log(k);
     }
   }
-  rotate () {
 
-    const aux = this.width;	
+  rotate () {
+    const aux = this.width;
     this.width = this.height;
-    this.height = aux;	
+    this.height = aux;
   }
+
   double () {
     this.width *= 2;
     this.height *= 2;
