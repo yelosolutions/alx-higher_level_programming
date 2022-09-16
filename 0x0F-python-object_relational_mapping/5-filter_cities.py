@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 """
-List all cities of state
+Takes name of an argument and ist all cities of that state.
+Usage: ./5-filter_cities.py <mysql username> \
+        <mysql password> \
+        <database name> \
+        <state name> \
 """
 import sys
 import MySQLdb

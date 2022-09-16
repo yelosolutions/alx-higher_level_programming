@@ -2,6 +2,10 @@
 """
 Lists all values in the states tables of a database where name
 matches the argument in a safe way
+Usage: ./3-my_safe_filter_sates.py <mysql username> \
+        <mysql password> \
+        <mysql database> \
+        <state name searched>
 """
 import sys
 import MySQLdb
